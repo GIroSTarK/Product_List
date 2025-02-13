@@ -23,7 +23,7 @@ export const ProductList = () => {
       <div className="max-w-6xl w-full">
         <h2 className="text-6xl font-bold text-center mb-10">Product List</h2>
         <button
-          className="mb-6 bg-green-500 text-white py-3 px-6 rounded-lg hover:bg-green-600 transition-colors"
+          className="mb-6 bg-green-500 text-white py-3 px-6 rounded-lg hover:bg-green-600 transition-colors cursor-pointer"
           onClick={() => setIsModalOpen(true)}
         >
           Add Product
@@ -31,7 +31,7 @@ export const ProductList = () => {
         {!isLoading && !isError && (
           <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
             {products.map((product) => (
-              <ProductItem product={product} />
+              <ProductItem key={product.id} product={product} />
             ))}
           </ul>
         )}

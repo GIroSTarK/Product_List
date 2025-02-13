@@ -1,11 +1,20 @@
 import { Link } from 'react-router-dom';
 import { Product } from '../types/Product';
+import { useAppDispatch } from '../app/hooks';
+import { deleteProduct, productsSlice } from '../features/products';
 
 type Props = {
   product: Product;
 };
 
 export const ProductItem: React.FC<Props> = ({ product }) => {
+  const dispatch = useAppDispatch();
+  
+  const deleteItem = (productId: number) => {
+    dispatch(productsSlice.actions.delete(productId));
+    dispatch(deleteProduct(productId));
+  };
+
   return (
     <li
       key={product.id}
@@ -22,7 +31,10 @@ export const ProductItem: React.FC<Props> = ({ product }) => {
       >
         {product.name}
       </Link>
-      <button className="mt-6 bg-red-500 text-white py-3 px-6 rounded-lg hover:bg-red-600 transition-colors">
+      <button
+        onClick={() => deleteItem(product.id)}
+        className="mt-6 bg-red-500 text-white py-3 px-6 rounded-lg hover:bg-red-600 transition-colors cursor-pointer"
+      >
         Delete
       </button>
     </li>

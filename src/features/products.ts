@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { Product } from '../types/Product';
-import { createProduct, getAllProducts } from '../api/products';
+import { createProduct, getAllProducts, removeProduct } from '../api/products';
 
 type ProductsState = {
   isLoading: boolean;
@@ -24,10 +24,19 @@ export const addProduct = createAsyncThunk(
   (data: { name: string; imageUrl: string }) => createProduct(data)
 );
 
+export const deleteProduct = createAsyncThunk(
+  'products/delete',
+  (productId: number) => removeProduct(productId)
+);
+
 export const productsSlice = createSlice({
   name: 'products',
   initialState: initialState,
-  reducers: {},
+  reducers: {
+    delete: (state, action) => {
+      state.items = state.items.filter((item) => item.id !== action.payload);
+    },
+  },
   extraReducers: (builder) => {
     builder.addCase(loadAllProducts.pending, (state) => {
       state.isLoading = true;
@@ -39,6 +48,12 @@ export const productsSlice = createSlice({
     builder.addCase(loadAllProducts.fulfilled, (state, action) => {
       state.isLoading = false;
       state.items = action.payload;
+    });
+    builder.addCase(addProduct.rejected, (state) => {
+      state.isError = true;
+    });
+    builder.addCase(addProduct.fulfilled, (state, action) => {
+      state.items.push(action.payload);
     });
   },
 });

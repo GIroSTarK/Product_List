@@ -8,3 +8,7 @@ export const getAllProducts = () => {
 export const createProduct = (data: { name: string; imageUrl: string }) => {
   return client.post<Product>('/products', data);
 };
+
+export const removeProduct = (productId: number) => {
+  return client.delete(`/products/${productId}`);
+};
