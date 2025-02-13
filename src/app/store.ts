@@ -8,3 +8,6 @@ export const store = configureStore({
     comments: commentsReducer,
   },
 });
+
+export type AppDispatch = typeof store.dispatch;
+export type RootState = ReturnType<typeof store.getState>;
