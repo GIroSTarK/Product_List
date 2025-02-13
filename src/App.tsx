@@ -1,31 +1,17 @@
-import { useEffect } from 'react';
-import { useAppDispatch, useAppSelector } from './app/hooks';
-import { loadAllProducts } from './features/products';
-import { Link } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { store } from './app/store.ts';
+import { ProductList } from './components/ProductList.tsx';
 
-function App() {
-  const dispatch = useAppDispatch();
-  const { items: products } = useAppSelector((state) => state.products);
-
-  useEffect(() => {
-    dispatch(loadAllProducts());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  return (
-    <>
-      <h1>Products</h1>
-      <div>
-        {products.map((product) => (
-          <li key={product.id}>
-            <Link to={`/product/${product.id}`}>{product.name}</Link>
-            <button>Edit</button>
-            <button>Delete</button>
-          </li>
-        ))}
-      </div>
-    </>
-  );
-}
+const App = () => (
+  <Provider store={store}>
+    <Router>
+      <Routes>
+        <Route path="/" element={<ProductList />} />
+        <Route path="/product/:id" element={<h1>Some product</h1>} />
+      </Routes>
+    </Router>
+  </Provider>
+);
 
 export default App;

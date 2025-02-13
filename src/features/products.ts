@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { Product } from '../types/Product';
-import { getAllProducts } from '../api/products';
+import { createProduct, getAllProducts } from '../api/products';
 
 type ProductsState = {
   isLoading: boolean;
@@ -17,6 +17,11 @@ const initialState: ProductsState = {
 export const loadAllProducts = createAsyncThunk(
   'products/fetch',
   getAllProducts
+);
+
+export const addProduct = createAsyncThunk(
+  'products/add',
+  (data: { name: string; imageUrl: string }) => createProduct(data)
 );
 
 export const productsSlice = createSlice({

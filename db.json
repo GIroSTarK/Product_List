@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "id": 1,
-      "imageUrl": "https://example.com/image1.jpg",
+      "id": "1",
+      "imageUrl": "https://img.freepik.com/free-photo/purple-computer-mouse_1260-11.jpg?t=st=1739459385~exp=1739462985~hmac=206012f714fa1c7b5a4df958b111a4822479984592a6dc354361dca22952eef3&w=1380",
       "name": "Wireless Mouse",
       "count": 4,
       "size": {
@@ -10,11 +10,14 @@
         "height": 80
       },
       "weight": "150g",
-      "comments": ["Great product!", "Works smoothly"]
+      "comments": [
+        "Great product!",
+        "Works smoothly"
+      ]
     },
     {
-      "id": 2,
-      "imageUrl": "https://example.com/image2.jpg",
+      "id": "2",
+      "imageUrl": "https://img.freepik.com/free-photo/party-space-ready-online-celebration_23-2149347282.jpg?t=st=1739459610~exp=1739463210~hmac=344f1026eafda4f7d0b014c09e797f1ef6b52f6eccbae2bf796b7330d477c184&w=1380",
       "name": "Mechanical Keyboard",
       "count": 3,
       "size": {
@@ -22,11 +25,14 @@
         "height": 140
       },
       "weight": "900g",
-      "comments": ["Nice tactile feel", "RGB lights are amazing"]
+      "comments": [
+        "Nice tactile feel",
+        "RGB lights are amazing"
+      ]
     },
     {
-      "id": 3,
-      "imageUrl": "https://example.com/image3.jpg",
+      "id": "3",
+      "imageUrl": "https://img.freepik.com/free-photo/still-life-wireless-cyberpunk-headphones_23-2151072227.jpg?t=st=1739459646~exp=1739463246~hmac=4a12b7d5aa8537ecb3533c0b3034fd1ec80a4c1ff0cb1bdd0c39ea2610eaf5fd&w=740",
       "name": "Gaming Headset",
       "count": 5,
       "size": {
@@ -34,11 +40,14 @@
         "height": 180
       },
       "weight": "350g",
-      "comments": ["Clear sound", "Comfortable for long sessions"]
+      "comments": [
+        "Clear sound",
+        "Comfortable for long sessions"
+      ]
     },
     {
-      "id": 4,
-      "imageUrl": "https://example.com/image4.jpg",
+      "id": "4",
+      "imageUrl": "https://img.freepik.com/free-photo/usb-flash-drive-tech-device-with-minimalist-monochrome-background-earphones_23-2150763318.jpg?t=st=1739459794~exp=1739463394~hmac=970bc15b8f64307500ec49dafa43ad1314d4409a3678fe43031b2eab3ec0b2e6&w=740",
       "name": "USB Flash Drive 128GB",
       "count": 10,
       "size": {
@@ -46,11 +55,14 @@
         "height": 20
       },
       "weight": "30g",
-      "comments": ["Fast transfer speed", "Compact and reliable"]
+      "comments": [
+        "Fast transfer speed",
+        "Compact and reliable"
+      ]
     },
     {
-      "id": 5,
-      "imageUrl": "https://example.com/image5.jpg",
+      "id": "5",
+      "imageUrl": "https://img.freepik.com/free-vector/gradient-hard-drive-illustration_23-2149377020.jpg?t=st=1739459825~exp=1739463425~hmac=73fb7a10e18a55bc6fe17cf903d6f1f5e4ce8bd90d316e410fc0bf65e3e47a1e&w=740",
       "name": "External SSD 1TB",
       "count": 2,
       "size": {
@@ -58,11 +70,14 @@
         "height": 60
       },
       "weight": "200g",
-      "comments": ["Super fast", "Lightweight and durable"]
+      "comments": [
+        "Super fast",
+        "Lightweight and durable"
+      ]
     },
     {
-      "id": 6,
-      "imageUrl": "https://example.com/image6.jpg",
+      "id": "6",
+      "imageUrl": "https://img.freepik.com/free-photo/electronic-device-surrounded-by-nature_23-2150039926.jpg?t=st=1739459846~exp=1739463446~hmac=12d9fccfe83b6aea3a7c26657dbd408f0a4c6ba5aa74d7c88e4357db8ecd240a&w=740",
       "name": "Smartphone Stand",
       "count": 6,
       "size": {
@@ -70,11 +85,14 @@
         "height": 180
       },
       "weight": "250g",
-      "comments": ["Sturdy and adjustable", "Good for video calls"]
+      "comments": [
+        "Sturdy and adjustable",
+        "Good for video calls"
+      ]
     },
     {
-      "id": 7,
-      "imageUrl": "https://example.com/image7.jpg",
+      "id": "7",
+      "imageUrl": "https://img.freepik.com/free-photo/still-life-tech-device_23-2150722656.jpg?t=st=1739459866~exp=1739463466~hmac=ed0fb48dba810dd1c5bc43cd30489529be66d75982d992dcdde016d71cd6458d&w=740",
       "name": "Bluetooth Speaker",
       "count": 4,
       "size": {
@@ -82,11 +100,14 @@
         "height": 120
       },
       "weight": "500g",
-      "comments": ["Great bass", "Battery lasts long"]
+      "comments": [
+        "Great bass",
+        "Battery lasts long"
+      ]
     },
     {
-      "id": 8,
-      "imageUrl": "https://example.com/image8.jpg",
+      "id": "8",
+      "imageUrl": "https://img.freepik.com/free-vector/hand-drawn-flat-design-hard-drive-illustration_23-2149363191.jpg?t=st=1739459888~exp=1739463488~hmac=b6f9f4ffb319c37d448e2b6494f11498932bf78652917ca4d63d52c9a55018b2&w=740",
       "name": "Portable Power Bank 20000mAh",
       "count": 7,
       "size": {
@@ -94,11 +115,14 @@
         "height": 75
       },
       "weight": "400g",
-      "comments": ["Charges fast", "Can charge multiple devices"]
+      "comments": [
+        "Charges fast",
+        "Can charge multiple devices"
+      ]
     },
     {
-      "id": 9,
-      "imageUrl": "https://example.com/image9.jpg",
+      "id": "9",
+      "imageUrl": "https://img.freepik.com/free-psd/apple-watch-series-9-mockup_1332-60598.jpg?t=st=1739459883~exp=1739463483~hmac=86b72ce00cee5fd0e59f79b34ce297dcaac43bf113aa80a73b0b478f3f3cb8cd&w=1380",
       "name": "Smartwatch",
       "count": 3,
       "size": {
@@ -106,11 +130,14 @@
         "height": 50
       },
       "weight": "120g",
-      "comments": ["Good battery life", "Many useful features"]
+      "comments": [
+        "Good battery life",
+        "Many useful features"
+      ]
     },
     {
-      "id": 10,
-      "imageUrl": "https://example.com/image10.jpg",
+      "id": "10",
+      "imageUrl": "https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039342.jpg?t=st=1739459967~exp=1739463567~hmac=3108d9595a660e473f6665fa7af541dd657d9c759c9678535ecc1a407059efac&w=1380",
       "name": "Webcam 1080p",
       "count": 5,
       "size": {
@@ -118,72 +145,85 @@
         "height": 60
       },
       "weight": "180g",
-      "comments": ["Sharp image quality", "Works well with Zoom"]
+      "comments": [
+        "Sharp image quality",
+        "Works well with Zoom"
+      ]
+    },
+    {
+      "id": "09cd",
+      "name": "dcds",
+      "imageUrl": "csdc"
+    },
+    {
+      "id": "e471",
+      "name": "dsscd",
+      "imageUrl": "sdcsdc"
     }
   ],
   "comments": [
     {
-      "id": 1,
+      "id": "1",
       "productId": 1,
       "description": "Very responsive and easy to use!",
       "date": "10:30 12.02.2023"
     },
     {
-      "id": 2,
+      "id": "2",
       "productId": 1,
       "description": "Smooth performance, but a bit small for my hand.",
       "date": "15:45 15.03.2023"
     },
     {
-      "id": 3,
+      "id": "3",
       "productId": 2,
       "description": "The mechanical switches feel amazing!",
       "date": "09:10 05.06.2023"
     },
     {
-      "id": 4,
+      "id": "4",
       "productId": 2,
       "description": "Great keyboard, but the RGB settings are a bit tricky.",
       "date": "20:15 18.07.2023"
     },
     {
-      "id": 5,
+      "id": "5",
       "productId": 3,
       "description": "Very comfortable for long gaming sessions.",
       "date": "14:00 22.08.2021"
     },
     {
-      "id": 6,
+      "id": "6",
       "productId": 3,
       "description": "The mic quality could be better, but overall a solid headset.",
       "date": "11:50 02.09.2021"
     },
     {
-      "id": 7,
+      "id": "7",
       "productId": 5,
       "description": "Blazing fast SSD! Perfect for large files.",
       "date": "08:30 25.04.2023"
     },
     {
-      "id": 8,
+      "id": "8",
       "productId": 6,
       "description": "Very sturdy stand, holds my phone perfectly.",
       "date": "13:20 07.01.2024"
     },
     {
-      "id": 9,
+      "id": "9",
       "productId": 8,
       "description": "Charges my phone multiple times, great for travel.",
       "date": "21:30 30.06.2023"
     },
     {
-      "id": 10,
+      "id": "10",
       "productId": 9,
       "description": "Really good smartwatch, tracks fitness accurately.",
       "date": "12:40 14.02.2023"
     },
     {
-      "id": 11,
+      "id": "11",
       "productId": 10,
       "description": "Sharp and clear image, perfect for video calls.",
       "date": "10:15 03.09.2022"
