@@ -1,0 +1,192 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://example.com/image1.jpg",
+      "name": "Wireless Mouse",
+      "count": 4,
+      "size": {
+        "width": 120,
+        "height": 80
+      },
+      "weight": "150g",
+      "comments": ["Great product!", "Works smoothly"]
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://example.com/image2.jpg",
+      "name": "Mechanical Keyboard",
+      "count": 3,
+      "size": {
+        "width": 440,
+        "height": 140
+      },
+      "weight": "900g",
+      "comments": ["Nice tactile feel", "RGB lights are amazing"]
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://example.com/image3.jpg",
+      "name": "Gaming Headset",
+      "count": 5,
+      "size": {
+        "width": 200,
+        "height": 180
+      },
+      "weight": "350g",
+      "comments": ["Clear sound", "Comfortable for long sessions"]
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://example.com/image4.jpg",
+      "name": "USB Flash Drive 128GB",
+      "count": 10,
+      "size": {
+        "width": 70,
+        "height": 20
+      },
+      "weight": "30g",
+      "comments": ["Fast transfer speed", "Compact and reliable"]
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://example.com/image5.jpg",
+      "name": "External SSD 1TB",
+      "count": 2,
+      "size": {
+        "width": 100,
+        "height": 60
+      },
+      "weight": "200g",
+      "comments": ["Super fast", "Lightweight and durable"]
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://example.com/image6.jpg",
+      "name": "Smartphone Stand",
+      "count": 6,
+      "size": {
+        "width": 150,
+        "height": 180
+      },
+      "weight": "250g",
+      "comments": ["Sturdy and adjustable", "Good for video calls"]
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://example.com/image7.jpg",
+      "name": "Bluetooth Speaker",
+      "count": 4,
+      "size": {
+        "width": 180,
+        "height": 120
+      },
+      "weight": "500g",
+      "comments": ["Great bass", "Battery lasts long"]
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://example.com/image8.jpg",
+      "name": "Portable Power Bank 20000mAh",
+      "count": 7,
+      "size": {
+        "width": 150,
+        "height": 75
+      },
+      "weight": "400g",
+      "comments": ["Charges fast", "Can charge multiple devices"]
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://example.com/image9.jpg",
+      "name": "Smartwatch",
+      "count": 3,
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "weight": "120g",
+      "comments": ["Good battery life", "Many useful features"]
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://example.com/image10.jpg",
+      "name": "Webcam 1080p",
+      "count": 5,
+      "size": {
+        "width": 90,
+        "height": 60
+      },
+      "weight": "180g",
+      "comments": ["Sharp image quality", "Works well with Zoom"]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "productId": 1,
+      "description": "Very responsive and easy to use!",
+      "date": "10:30 12.02.2023"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "description": "Smooth performance, but a bit small for my hand.",
+      "date": "15:45 15.03.2023"
+    },
+    {
+      "id": 3,
+      "productId": 2,
+      "description": "The mechanical switches feel amazing!",
+      "date": "09:10 05.06.2023"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "description": "Great keyboard, but the RGB settings are a bit tricky.",
+      "date": "20:15 18.07.2023"
+    },
+    {
+      "id": 5,
+      "productId": 3,
+      "description": "Very comfortable for long gaming sessions.",
+      "date": "14:00 22.08.2021"
+    },
+    {
+      "id": 6,
+      "productId": 3,
+      "description": "The mic quality could be better, but overall a solid headset.",
+      "date": "11:50 02.09.2021"
+    },
+    {
+      "id": 7,
+      "productId": 5,
+      "description": "Blazing fast SSD! Perfect for large files.",
+      "date": "08:30 25.04.2023"
+    },
+    {
+      "id": 8,
+      "productId": 6,
+      "description": "Very sturdy stand, holds my phone perfectly.",
+      "date": "13:20 07.01.2024"
+    },
+    {
+      "id": 9,
+      "productId": 8,
+      "description": "Charges my phone multiple times, great for travel.",
+      "date": "21:30 30.06.2023"
+    },
+    {
+      "id": 10,
+      "productId": 9,
+      "description": "Really good smartwatch, tracks fitness accurately.",
+      "date": "12:40 14.02.2023"
+    },
+    {
+      "id": 11,
+      "productId": 10,
+      "description": "Sharp and clear image, perfect for video calls.",
+      "date": "10:15 03.09.2022"
+    }
+  ]
+}
